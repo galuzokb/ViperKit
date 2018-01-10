@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import DiKit
 
 open class Application: UIApplication {
     let _factory: AssembliesFactory

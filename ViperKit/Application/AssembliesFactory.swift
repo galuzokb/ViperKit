@@ -6,7 +6,6 @@
 //  Copyright © 2018 galuzokb. All rights reserved.
 //
 
-import DiKit
 import Foundation
 
 open class AssembliesFactory: Assembly {

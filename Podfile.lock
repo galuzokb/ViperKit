@@ -1,0 +1,16 @@
+PODS:
+  - Dip (6.0)
+  - Dip-UI (2.0):
+    - Dip (~> 6.0)
+
+DEPENDENCIES:
+  - Dip
+  - Dip-UI
+
+SPEC CHECKSUMS:
+  Dip: 316ad036509eaf3ef78e19699f32a9e01a5b3c3e
+  Dip-UI: 80616044fdf76a86f6504d33d5f0b20c82df71e3
+
+PODFILE CHECKSUM: ef109806c2df510b149a71baa5c6674c73f965f1
+
+COCOAPODS: 1.1.1

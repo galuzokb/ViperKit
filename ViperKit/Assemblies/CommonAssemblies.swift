@@ -10,14 +10,14 @@ import Dip
 import Dip_UI
 
 open class RootViperAssembly: Assembly {
-    public override init(withCollaborator collaborator: Assembly) {
+    public init(withCollaborator collaborator: RootServicesAssembly) {
         super.init(withCollaborator: collaborator)
         DependencyContainer.uiContainers += [container]
     }
 }
 
 open class BaseViperAssembly: Assembly {
-    public override init(withCollaborator collaborator: Assembly) {
+    public init(withCollaborator collaborator: RootViperAssembly) {
         super.init()
         container.collaborate(with: collaborator.container)
         collaborator.container.collaborate(with: container)

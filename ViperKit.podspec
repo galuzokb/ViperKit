@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "ViperKit"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "ViperKit"
   s.description  = "ViperKit description"
   s.homepage     = "https://github.com/galuzokb/ViperKit"
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.author             = { "Kirill Galuzo" => "galuzokb@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.3"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/galuzokb/ViperKit.git", :tag => "0.0.4" }
+  s.source       = { :git => "https://github.com/galuzokb/ViperKit.git", :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

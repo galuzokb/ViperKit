@@ -22,6 +22,8 @@
 		8410BF4420061AF800508AD5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410BF3D20061AF800508AD5 /* BaseViewController.swift */; };
 		8410BF4520061AF800508AD5 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410BF3E20061AF800508AD5 /* BaseTableViewController.swift */; };
 		8410BF4620061AF800508AD5 /* ModuleInputProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410BF3F20061AF800508AD5 /* ModuleInputProvider.swift */; };
+		84C70801201895FF00B9E631 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C70800201895FF00B9E631 /* BaseTabBarController.swift */; };
+		84C708032018961700B9E631 /* BasePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C708022018961700B9E631 /* BasePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		8410BF3D20061AF800508AD5 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		8410BF3E20061AF800508AD5 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		8410BF3F20061AF800508AD5 /* ModuleInputProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleInputProvider.swift; sourceTree = "<group>"; };
+		84C70800201895FF00B9E631 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		84C708022018961700B9E631 /* BasePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageViewController.swift; sourceTree = "<group>"; };
 		FCB10EA86D58AB3EEAE2B5A0 /* Pods-ViperKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViperKit/Pods-ViperKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +158,8 @@
 				8410BF3F20061AF800508AD5 /* ModuleInputProvider.swift */,
 				8410BF3C20061AF800508AD5 /* SegueHandler.swift */,
 				8410BF3920061AF800508AD5 /* ViewInput.swift */,
+				84C70800201895FF00B9E631 /* BaseTabBarController.swift */,
+				84C708022018961700B9E631 /* BasePageViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C708032018961700B9E631 /* BasePageViewController.swift in Sources */,
 				8410BF3720061AF300508AD5 /* CommonAssemblies.swift in Sources */,
 				8410BF3820061AF300508AD5 /* Assembly.swift in Sources */,
 				8410BF4520061AF800508AD5 /* BaseTableViewController.swift in Sources */,
@@ -321,6 +328,7 @@
 				8410BF4320061AF800508AD5 /* SegueHandler.swift in Sources */,
 				8410BF4420061AF800508AD5 /* BaseViewController.swift in Sources */,
 				8410BF3420061AEA00508AD5 /* AssembliesFactory.swift in Sources */,
+				84C70801201895FF00B9E631 /* BaseTabBarController.swift in Sources */,
 				8410BF4220061AF800508AD5 /* ModuleInput.swift in Sources */,
 				8410BF4620061AF800508AD5 /* ModuleInputProvider.swift in Sources */,
 				8410BF3320061AEA00508AD5 /* Application.swift in Sources */,

@@ -8,7 +8,7 @@
 
 import UIKit
 
-open class BaseTabBarController: UIPageViewController, SegueHandler {
+open class BasePageViewController: UIPageViewController, SegueHandler {
     override open func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let configurationBlock = sender as? ConfigurationBlockHolder else {
             return

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.3"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/galuzokb/ViperKit.git", :tag => "0.0.8" }
+  s.source       = { :git => "https://github.com/galuzokb/ViperKit.git", :tag => "0.0.9" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

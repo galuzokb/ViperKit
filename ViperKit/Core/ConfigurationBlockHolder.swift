@@ -6,7 +6,7 @@
 //  Copyright © 2018 galuzokb. All rights reserved.
 //
 
-internal class ConfigurationBlockHolder {
+public class ConfigurationBlockHolder {
     let block: (ModuleInput) -> Void
     
     init(block: @escaping (ModuleInput) -> Void) {

@@ -1,16 +1,22 @@
 PODS:
-  - Dip (6.0)
-  - Dip-UI (2.0):
-    - Dip (~> 6.0)
+  - Dip (7.0.0)
 
 DEPENDENCIES:
-  - Dip
-  - Dip-UI
+  - Dip (from `https://github.com/AliSoftware/Dip.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Dip:
+    :branch: master
+    :git: https://github.com/AliSoftware/Dip.git
+
+CHECKOUT OPTIONS:
+  Dip:
+    :commit: 54e1db22326227eea9c005a1b3a7de91805feba2
+    :git: https://github.com/AliSoftware/Dip.git
 
 SPEC CHECKSUMS:
-  Dip: 316ad036509eaf3ef78e19699f32a9e01a5b3c3e
-  Dip-UI: 80616044fdf76a86f6504d33d5f0b20c82df71e3
+  Dip: 996ce76ec9170ca3c260683d2815596dd2bf99c6
 
-PODFILE CHECKSUM: ef109806c2df510b149a71baa5c6674c73f965f1
+PODFILE CHECKSUM: ca1e12b28ddcd6cc53b860959d54efc9591a0d40
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.0

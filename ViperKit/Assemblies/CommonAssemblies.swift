@@ -7,7 +7,6 @@
 //
 
 import Dip
-import Dip_UI
 
 open class RootViperAssembly: Assembly {
     public init(withCollaborator collaborator: RootServicesAssembly) {

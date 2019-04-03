@@ -23,8 +23,9 @@ Modules, CustomViews, Segues and etc. declared and implemented in **Presentation
    * [.gitignore](#gitignore)
 
 # Installation
-
+```
 pod 'ViperKit', :git => 'https://github.com/galuzokb/ViperKit'
+```
 
 # Usage
 

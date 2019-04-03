@@ -167,7 +167,7 @@ That will create Rambafile. Example:
 
 ```
 ### Headers settings
-company: galuzokb@gmail.com
+company: Company_Name
 
 ### Xcode project settings
 project_name: ViperKitExample
@@ -184,12 +184,12 @@ project_file_path: /ViperKitExample/PresentationLayer/UserStories/
 podfile_path: Podfile
 
 catalogs:
-- 'https://github.com/galuzokb/ViperKitModuleTemplate.git'
+- 'your_template_git_url'
 
 ### Templates
 templates:
 #- {name: galuzokb-viper-template, git: 'https://github.com/igrekde/remote_template'}
-- {name: galuzokb-viper-template}
+- {name: your_template_name}
 ```
 
 To install templates run.
@@ -200,8 +200,10 @@ This command will clone template from git repository into /Templates folder in y
 
 To generate new module files with [MODULE_NAME] in folder /YourProjectFolder/PresentationLayer/UserStories/ run:
 ```
-generamba gen [MODULE_NAME] galuzokb-viper-template
+generamba gen [MODULE_NAME] your_template_name
 ```
+
+As example you may try this [template](https://github.com/galuzokb/ViperKitModuleTemplate)
 
 ### Module configuration
 
